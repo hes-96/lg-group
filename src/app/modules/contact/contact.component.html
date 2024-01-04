@@ -1,0 +1,287 @@
+<!-- <div [formGroup]="form" class="formbold-main-wrapper">
+  <h1>CONTACTEZ-NOUS</h1>
+  <br>
+  <br>
+  
+  <hr style="width: 50%; height: 1px; text-align: center" />
+  <div class="formbold-form-wrapper">
+    
+    <form [formGroup]="form" action="javascript:void(0)" (submit)="send()">
+      <div >
+        <div class="formbold-container" >
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="nom" class="formbold-form-label"></label>
+            <input
+              formControlName="nom"
+              type="text"
+              id="firstName"
+              name="nom"
+              placeholder="NOM *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="prenom" class="formbold-form-label"></label>
+            <input
+              formControlName="prenom"
+              type="text"
+              id="prenom"
+              name="prenom"
+              placeholder="PRÉNOM *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="email" class="formbold-form-label"></label>
+            <input
+              formControlName="email"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="ADRESSE E-MAIL *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        </div>
+        <div class="formbold-container">
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="telephone" class="formbold-form-label"></label>
+            <input
+              formControlName="telephone"
+              type="text"
+              id="telephone"
+              name="telephone"
+              placeholder="N° DE TÉLÉPHONE *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+
+
+
+
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="nomEntreprise" class="formbold-form-label"></label>
+            <input
+              formControlName="nomEntreprise"
+              type="text"
+              id="nomEntreprise"
+              name="nomEntreprise"
+              placeholder="NOM DE L'ENTREPRISE *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+
+
+
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="fonction" class="formbold-form-label"></label>
+            <input
+              formControlName="telephone"
+              type="text"
+              id="fonction"
+              name="fonction"
+              placeholder="FONCTION *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+      </div>
+
+      </div>
+      <div class="formbold-container">
+      <div class="formbold-row">
+        <div class="formbold-col">
+          <div class="formbold-mb-5">
+            <label for="objet" class="formbold-form-label">
+              
+            </label>
+            <select
+              formControlName="objet"
+              id="objet"
+              name="objet"
+              placeholder="OBJET"
+              class="formbold-form-input"
+              [(ngModel)]="sujetSelectionne"
+            >
+              <option  disabled selected></option>
+              <option value="option2">Mise à disposition d'équipe dédiée</option>
+              <option value="option3">Support aux entreprises</option>
+              <option value="option4">Autre</option>
+            </select>
+          </div>
+        </div>
+        
+        <div style="margin: 0;" class="formbold-col">
+          <div style="margin: 0;" class="formbold-mb-5">
+            <label for="message" class="formbold-form-label"></label>
+            <textarea
+            style="margin: 0;"
+            formControlName="message"
+            id="message"
+            name="message"
+            placeholder="MESSAGE :"
+            class="formbold-form-input formbold-textarea"
+          ></textarea>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="formbold-button">
+      <button type="submit" class="formbold-btn">Envoyer</button>
+    </div>
+    </form>
+  </div>
+
+</div> -->
+
+<div class="background">
+  <div [formGroup]="form" >
+  <div class="container">
+    <div class="header">
+      <h1>CONTACTEZ-NOUS</h1>
+      <hr style="width: 50%; height: 5px; color: white; text-align: center" />
+    </div>
+
+    <div class="content">
+      <div class="row">
+        <div class="column">
+          <div class="formbold-mb-5">
+            <label for="nom" class="formbold-form-label"></label>
+            <input
+              formControlName="nom"
+              type="text"
+              id="firstName"
+              name="nom"
+              placeholder="NOM *"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-mb-5">
+            <label for="prenom" class="formbold-form-label"></label>
+            <input
+              formControlName="prenom"
+              type="text"
+              id="prenom"
+              name="prenom"
+              placeholder="PRÉNOM *"
+              class="formbold-form-input"
+            />
+          </div>
+          <div class="formbold-mb-5">
+            <label for="email" class="formbold-form-label"></label>
+            <input
+              formControlName="email"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="ADRESSE E-MAIL *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div class="column">
+          <div class="formbold-mb-5">
+            <label for="telephone" class="formbold-form-label"></label>
+            <input
+              formControlName="telephone"
+              type="text"
+              id="telephone"
+              name="telephone"
+              placeholder="N° DE TÉLÉPHONE *"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-mb-5">
+            <label for="nomEntreprise" class="formbold-form-label"></label>
+            <input
+              formControlName="nomEntreprise"
+              type="text"
+              id="nomEntreprise"
+              name="nomEntreprise"
+              placeholder="NOM DE L'ENTREPRISE *"
+              class="formbold-form-input"
+            />
+          </div>
+
+          <div class="formbold-mb-5">
+            <label for="fonction" class="formbold-form-label"></label>
+            <input
+              formControlName="telephone"
+              type="text"
+              id="fonction"
+              name="fonction"
+              placeholder="FONCTION *"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div id="column3" class="column">
+          <div class="formbold-mb-5">
+            <label for="objet" class="formbold-form-label"></label>
+            <!-- <select
+              formControlName="objet"
+              id="objet"
+              name="objet"
+              
+              [(ngModel)]="sujetSelectionne"
+            >
+              <option value="" disabled selected>OBJET</option>
+              <option value="option2">Mise à disposition d'équipe dédiée</option>
+              <option value="option3">Support aux entreprises</option>
+              <option value="option4">Autre</option>
+            </select> -->
+    
+              <select  matNativeControl required>
+                <option value="" disabled selected hidden>OBJET</option>
+                
+                <option value="Mise à disposition d'équipe dédiée" disabled>Mise à disposition d'équipe dédiée : </option>
+                <option value="Profile Comptable et Financiers">Profile Comptable et Financiers</option>
+                <option value="Ingenieurs">Ingénieurs</option>
+                <option value="Assistantes">Assistantes</option>
+                <option value="Support aux entreprises" disabled>Support aux entreprises : </option>
+                <option value="Gestion de la paie">Gestion de la paie</option>
+                <option value="Gestion de la ressources humaines">Gestion de la ressources humaines</option>
+                <option value="Support administratif">Support administratif</option>
+
+              </select>
+          </div>
+          
+          
+          
+          
+          <div style="margin: 0" class="formbold-mb-5">
+            <label for="message" class="formbold-form-label"></label>
+            <textarea
+              style="margin: 0"
+              formControlName="message"
+              id="message"
+              name="message"
+              placeholder="MESSAGE :"
+              class="formbold-form-input formbold-textarea"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="formbold-button">
+        <button type="submit" class="formbold-btn">ENVOYER</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<app-containercontact></app-containercontact>

@@ -1,0 +1,106 @@
+<div class="page-container">
+  <div class="a-propos">
+    <div class="section1">
+      <img src="/assets/LG GROUPE_LOGO.png" />
+      <h2 class="fly-in">VOTRE PARTENAIRE DE CONFIANCE SUR MESURE</h2>
+      <p>
+        Chez LG Groupe, nous comprenons les défis auxquels les entreprises
+        modernes sont confrontées dans un monde des affaires en constante
+        évolution, et nous nous engageons à fournir des solutions agiles pour
+        répondre à vos besoins spécifiques.
+      </p>
+      <p id="deco">
+        DÉCOUVREZ COMMENT NOTRE ÉQUIPE DE PROFESSIONNELS QUALIFIÉS ET
+        EXPÉRIMENTÉS PEUT TRANSFORMER VOTRE ENTREPRISE ET VOUS PERMETTRE DE
+        PROSPÉRER.
+      </p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="carreaux">
+      <div class="carreau" *ngFor="let carreau of carreauxData">
+        <h1>{{ carreau.titre }}</h1>
+        <p>
+          <span class="numero">{{ carreau.numero }}</span>
+          {{ carreau.descriptionCourte }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="propos">
+    <h2 class="bounce">NOTRE MISSION</h2>
+    <div class="propos-text">
+      <p>
+        CHEZ<strong> LG GROUPE</strong> , nous nous engageons à accélérer le
+        développement et la réussite de nos clients en mettant à leur
+        disposition notre expertise pour la sélection et le déploiement d’équipe
+        de professionnels qualifiés, tout en maintenant des normes de
+        satisfaction client inégalées. Notre objectif vise à libérer votre
+        entreprise des contraintes, à renforcer la productivité, réduire les
+        couts et à vous guider vers de nouveaux sommets de réussite. Avec LG
+        Groupe, vous obtenez bien plus qu'un simple prestataire de services,
+        vous disposez d’un partenaire privilégié pour réaliser vos ambitions.
+      </p>
+      <div class="propos-image">
+        <img src="/assets/img site-06.png" alt="Image de la société" />
+      </div>
+    </div>
+  </div>
+
+  <div id="menu" class="menu">
+    <h2 class="titre-texte">NOS VALEURS</h2>
+    <div class="contenu">
+      <div class="box">
+        <div class="title">
+          <img src="/assets/template 7Asset 7mdpi.png" alt="Image 1" />
+          <h3>Excellence</h3>
+        </div>
+        <div class="imbox">
+          <div class="text-content">
+            <p>
+              Nous poursuivons l'excellence dans tout ce que nous entreprenons,
+              de la prestation de service à la relation client. Cela signifie
+              fournir des services de la plus haute qualité, anticiper les
+              besoins de nos clients et viser constamment l'amélioration.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="title">
+          <img src="/assets/template 7Asset 8mdpi.png" alt="Image 2" />
+          <h3>Collaboration</h3>
+        </div>
+        <div class="imbox">
+          <div class="text-content">
+            <p>
+              La collaboration avec LG Groupe signifie travailler main dans la
+              main dans le but d'atteindre un objectif commun. En travaillant de
+              concert avec nos clients pour appréhender leurs besoins
+              spécifiques, nous encourageons simultanément une culture de
+              partage au sein de notre équipe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="title">
+          <img src="/assets/template 7Asset 9mdpi.png" alt="Image 3" />
+          <h3>Responsabilité</h3>
+        </div>
+        <div class="imbox">
+          <div class="text-content">
+            <p>
+              Nous sommes responsables de nos actions et de nos engagements
+              envers nos clients. Nous tenons nos promesses et nous nous
+              efforçons de contribuer de manière positive à nos communautés.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-containercontact></app-containercontact>
+</div>

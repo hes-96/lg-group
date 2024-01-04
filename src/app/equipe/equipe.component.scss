@@ -1,0 +1,505 @@
+.a-propos {
+  background-image:url('/assets/img site-09.png');
+  position:relative;
+
+  height: auto;  width: 100%;
+  background-size:cover;
+  background-position: center;
+  display:flex;
+  flex-direction:column;
+  color: #fff;
+
+margin-bottom: 10px;
+  .section1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    img{
+      margin-bottom: 30px;
+      width: 300px;
+    }
+  
+
+    h2 {
+      font-size: 1.70rem;
+      color: white;
+      font-family: 'Bahnschrift';
+      width: 30%;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Bahnschrift';
+      color:white;
+      margin: 50px;
+      font-size: 32px;
+      font-weight: bold;
+      
+
+    }
+    .contenu{
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      .box img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        cursor: pointer;
+      }
+      .box h3{
+    bottom: 80px;
+        position: relative;
+        font-family: 'Bahnschrift';
+
+      }
+    }
+
+   
+
+
+  }
+
+
+    
+  
+          
+        
+    }
+    .propos{
+      p{
+        width: 80%;
+        margin-left: 120px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+          line-height: 1.5;
+        font-size: 24px;
+
+      }
+      .section2{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .contenu{
+          img{
+            width: 80%;
+          }
+        }
+        .Image{
+          display: inline;
+width: 150px;
+height: 150px;
+margin: 0px 50px;
+        }
+        h2{
+          font-size: 30px;
+        }
+      }
+      .bg-section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+
+        height: 100px;
+        position: relative;
+
+        .bar-color{
+          position: absolute;
+
+          width: 90%;
+          height: 50px;
+          top: 40px;
+          background-color: #EBEBEB;
+        }
+      }
+      .section3{
+        position: relative;
+        margin-left: 50px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding:20px ;
+        img{
+          height: 50px;
+          width: 50px;
+          margin-right: 20px;
+        }
+        h1{
+          margin: 0;
+          
+          font-weight: bold;
+        }
+       
+    
+      }
+    }
+      @media screen and (max-width: 767px) {
+        .a-propos {
+          background-image: url('/assets/img site-09.png');
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          align-items: center;
+        }
+      
+        .a-propos .section1 {
+          text-align: center;
+          margin-top: 10rem;
+      img{
+        width: 250px;
+        height: 150px;
+      }
+          h2 {
+            font-size: 1.5rem;
+            color: white;
+            max-width: 100%;
+            
+          }
+      
+          h1 {
+            font-size: 2rem;
+            color: white;
+          }
+        }
+        .a-propos .menu {
+          .contenu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+          }
+        
+          .contenu .box {
+            flex: 1;
+            width: auto;
+            height: auto;
+            margin: 20px 10px; /* Ajustez l'espacement entre les boîtes */
+          }
+        
+          .contenu .box .imbox {
+            height: auto;
+            margin-top: 0;
+        
+            img {
+              width: 50px;
+              height: 50px;
+              height: auto;
+            }
+        
+            h3 {
+              font-size: 10px;
+            }
+          }
+        }
+        
+      }
+    //   @media only screen and (min-width: 1200px){  
+    //     .propos {
+    //       display: flex;
+    //       flex-direction: column;
+    //       align-items: center; 
+    
+    //       h2 {
+    //      font-size: 40px;
+    //       margin: 10px;
+    //       color: rgba(0, 0, 0, 0.884);
+    //       text-align:left;
+    //       margin-left:-700px;
+    //       margin-top: 10%;
+    //       margin-bottom: 20px;
+    //       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //       }
+    //       .Image{
+    //         margin-top:-10px;
+    // margin-bottom: 20px;
+    // margin-left:20px;
+    // width: 100px;
+    // margin-right: 900px;
+    
+    //       }
+      
+    //       .propos-text {
+    //         background-image: url('/assets/img site-08.png');
+    //       padding: 20px;
+    //       background-size: cover;
+    //       background-position: center;
+    //       position: relative;
+    //       margin: 0 100px 10px;
+    //       width: 1200px;
+    //       height:200px;
+    //       display: flex; /* Utilisation de flex pour aligner h2 et propos-text */
+    //       align-items: center; /* Pour centrer les éléments verticalement */
+    //       justify-content: space-between;
+    //       margin-bottom: 20px;
+    //       .propos-image {
+    //         background-image: url('/assets/template 2Asset 10mdpi.png');
+    //         flex: 1;
+    //         padding: 10px;
+    //         max-width:200px; /* Ajustez la largeur de l'image de fond */
+    //         height: 200px; /* Ajustez la hauteur de l'image de fond */
+    //         margin-bottom: 30px;
+    //         margin-top: -100px; /* Ajustez la marge supérieure pour centrer l'image */
+    //         justify-content: flex-end;
+    //         margin-right: -70px; /* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+    //         display: flex; /* Ajoutez cette ligne pour rendre flex actif sur la classe propos-image */
+    //         align-items: center;
+    //         h3 {
+    //           font-size: 14px; 
+    //           color: white;
+    //           margin-top:150px; 
+    //           text-align: center;
+    //           margin-right:-10px;
+    //           width:100%;
+    //                   }          
+    //           img {
+    //           width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+    //           height: 100px; /* Ajustez la hauteur de l'image selon vos besoins */
+    //           object-fit: contain;
+    //           margin-top: -50px;
+    //           margin-right:-150px;/* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+    
+    //         }
+    //       }
+          
+    //         p {
+    //           text-align: justify;
+    //           max-width: 850px;
+    //           font-size: 15px;
+    //           margin: 0;
+    //           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //           color:white;
+    //           line-height: 2; // Hauteur de ligne pour une meilleure lisibilité
+    //           text-align: left; // Justifier le texte à gauche
+    //         }
+    //       }
+    //     }
+    //   }
+      @media screen and (max-width: 767px) {
+        .propos{
+          p{
+            width: 80%;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 24px;
+    
+          }
+          .section2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            .contenu{
+              img{
+                width: 80%;
+              }
+            }
+            .Image{
+              display: inline;
+    width: 150px;
+    height: 150px;
+margin-bottom: 20px;  
+          }
+            h2{
+              font-size: 30px;
+            }
+          }
+          .bg-section{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 0;
+    
+            height: 100px;
+            position: relative;
+    
+            .bar-color{
+              position: absolute;
+    
+              width: 90%;
+              height: 50px;
+              top: 40px;
+              background-color: #EBEBEB;
+            }
+          }
+          .section3{
+            position: relative;
+            margin-left: 20px;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding:20px ;
+            img{
+              height: 50px;
+              width: 50px;
+              margin-right: 20px;
+            }
+            h1{
+              margin: 0;
+              
+              font-weight: bold;
+            }
+        
+          }
+        }
+      }
+    
+    //   @media only screen and (min-width: 1200px){  
+    //     .propos2 {
+    //       display: flex;
+    //       flex-direction: column;
+    //       align-items: center; 
+    //       margin-bottom: 100px;
+    //       h2 {
+    //         font-size: 40px;
+    //         margin: 10px;
+    //         color: rgba(0, 0, 0, 0.884);
+    //         text-align:left;
+    //         margin-left:-450px;
+    //         margin-top: 10%;
+    //         margin-bottom: 20px;
+    //         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //         }
+    //       .Image{
+    //         margin-top:-10px;
+    // margin-bottom: 20px;
+    // margin-left:-500px;
+    // width: 700px;
+    
+    //       }
+      
+    //       .propos2-text {
+    //         background-image: url('/assets/img site-07.png');
+    //       padding: 20px;
+    //       background-size: cover;
+    //       background-position: center;
+    //       position: relative;
+    //       margin: 0 100px 10px;
+    //       width: 1200px;
+    //       display: flex; /* Utilisation de flex pour aligner h2 et propos-text */
+    //       align-items: center; /* Pour centrer les éléments verticalement */
+    //       justify-content: space-between;
+    //       margin-bottom: 20px;
+    
+    //       .propos2-image {
+    //         background-image: url('/assets/template 2Asset 10mdpi.png');
+    //         flex: 1;
+    //         padding: 10px;
+    //         max-width:200px; /* Ajustez la largeur de l'image de fond */
+    //         height: 200px; /* Ajustez la hauteur de l'image de fond */
+    //         margin-bottom: 30px;
+    //         margin-top: -100px; /* Ajustez la marge supérieure pour centrer l'image */
+    //         justify-content: flex-end;
+    //         margin-right: -70px; /* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+    //         display: flex; /* Ajoutez cette ligne pour rendre flex actif sur la classe propos-image */
+    //         align-items: center;
+    //          h3 {
+    //           font-size: 14px; 
+    //           color: white;
+    //           margin-top:150px; 
+    //           text-align: center;
+    //           margin-right:-10px;
+    //           width:100%;
+    //                   }          
+    //           img {
+    //           width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+    //           height: 100px; /* Ajustez la hauteur de l'image selon vos besoins */
+    //           object-fit: contain;
+    //           margin-top: -50px;
+    //           margin-right:-150px;
+    
+    //         }
+    //       }
+    //         p {
+    //           text-align: justify;
+    //           max-width: 850px;
+    //           font-size: 15px;
+    //           margin: 0;
+    //           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //           color:white;
+    //           line-height: 2; // Hauteur de ligne pour une meilleure lisibilité
+    //           text-align: left; // Justifier le texte à gauche
+    //         }
+    //       }
+    //     }
+    //   }
+      @media screen and (max-width: 767px) {
+        .propos2 {
+          align-items: center;
+          text-align: center;
+          padding: 20px;
+      
+          h2 {
+            font-size: 24px; /* Ajustez la taille de la police pour les petits écrans */
+            margin: 10px 0;
+            color: rgba(0, 0, 0, 0.884);
+            font-family: 'Bahnschrift';
+          }
+      
+          .propos2-text {
+            background-size: cover;
+            background-position: center;
+            background-image: url('/assets/img site-08.png');
+            padding: 10px; /* Réduisez la marge intérieure */
+            margin: 0 20px 10px; /* Ajustez les marges */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .propos2-image {
+              background-image: url('/assets/template 2Asset 10mdpi.png');
+              height: auto; /* Réinitialisez la hauteur */
+              margin: 0;
+              margin-right: 0; /* Réinitialisez la marge droite */
+              justify-content: center;
+              display: flex;
+              flex-direction: column; /* Modifiez le flex-direction en "column" pour empiler l'image et le h3 */
+              align-items: center;
+              background-size: cover; /* Ajustez la taille du fond pour couvrir complètement le conteneur */
+            
+              img {
+                width: 50px;
+                height: 100px;
+                object-fit: contain;
+                margin: 0;
+                margin-right: 10px; /* Ajustez la marge droite */
+              }
+            
+              h3 {
+                font-size: 14px;
+                margin: 0;
+                color: white;
+                text-align: center;
+              }
+            }
+         p {
+              text-align: justify;
+              max-width: 100%; /* Ajustez la largeur maximale */
+              font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+              margin: 0;
+              font-family: 'Bahnschrift';
+              color: white;
+              line-height: 1.5; /* Ajustez la hauteur de ligne pour une meilleure lisibilité */
+              text-align: center; /* Centrez le texte */
+            }
+          }
+        }
+      }
+      

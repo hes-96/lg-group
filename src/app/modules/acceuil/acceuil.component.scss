@@ -1,0 +1,581 @@
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative; // Set the position to relative
+  .accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 50%;
+      margin: 0;
+
+      .container-image{
+       align-self: center;
+       margin-bottom: 20px;
+       img{
+        width: 300px;
+       }
+      }
+      .container-title{
+        align-self: center;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        width: 80%;
+font-family: 'Bahnschrift';
+      }
+      .container-description{
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.6;
+        font-family: 'Bahnschrift';
+
+
+      }
+    }
+  }
+}
+#card-text{
+  text-align:center;
+   color: #004E91; 
+  width: 230px;
+  font-size: 18px;
+   font-weight: bold;
+  padding: 10px 40px;
+  font-family: 'Bahnschrift';
+
+}
+  .accueil {
+  
+    
+    background-image: url('/assets/img site-01.png');
+    position: relative;
+    padding: 50px;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  
+  
+    .animated-section {
+      position: relative;
+      text-align: left;
+      padding: 2rem;
+      flex-direction: column;
+      height: 100%;
+  
+      .a-propos-image {
+        position: absolute;
+        left: 50px;
+        top: 10%;
+
+        max-width: 70%;
+        text-align: center;
+        left: 15%;
+
+        img {
+          width: 200px;
+          height: 120px;
+        }
+      }
+      h1 {
+        font-size: 1.70rem;
+        color: white;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        font-family: 'Bahnschrift';
+
+        max-width: 30%;
+        text-align: center;
+      }
+  
+      p {
+        font-size: 0.80rem;
+        margin: 0;
+        color: white;
+        font-family: 'Bahnschrift';
+        max-width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        line-height: 2;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+      }
+      a {
+        color: white;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-top: -50px;
+      }
+  
+      a {
+        color: white;
+        position: absolute;
+        top: 580px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+        left: 120px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+      }
+  
+      button {
+        background-color: white;
+        color: black;
+        padding: 7px 20px;
+        border: 2px solid white;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        position: absolute;
+        bottom: 85px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+        left: 25%;
+        transform: translateX(-50%);
+        z-index: 1;
+  
+        &:hover {
+          background-color: grey;
+        }
+      }
+      .additional-text {
+        font-size: 0.80rem;
+        margin: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 70%;
+        position: absolute;
+        top: 530px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+        left: 50px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+      }
+    }
+  }
+  .menu {
+ 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+
+  
+      .contenu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+    
+      .contenu .box {
+        
+        background-color: white;
+        top: 780px;
+        width: 100%;
+        width: 230px;
+        height: 220px;
+        margin: 0px 70px 10px;
+        box-shadow: 10px 1px 20px rgba(0, 0, 0, 0.8);
+      }
+    
+      .contenu .box .imbox {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        margin-top: -30px;
+        img {
+          width:200px;
+          height: 100px;
+          object-fit:contain;
+        }
+  
+        h3 {
+          text-align: center;
+          color: rgb(8, 89, 156);
+          font-weight: bold; // Style de police du titre
+          margin-top:20px; 
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px; 
+        }
+      }
+      .active {
+          border: 2px solid rgb(0, 179, 255); 
+          transform: scale(1.1); 
+          transition: all 0.3s; 
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+        }    
+      }
+      .image-box{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-right: 20px; display: flex; justify-content: center; align-items: center; flex-direction: column; background-color: white; width: 260px;
+        height: 260px;
+        img{
+          width: 100px;
+          height: 100px;
+        }
+      }
+      @media screen and (max-width: 950px) {
+        /* Styles pour les petits écrans */
+        .accueil {
+  
+    
+          background-image: url('/assets/img site-01.png');
+          position: relative;
+          padding: 50px;
+          height: 700px;
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+        
+        
+          .animated-section {
+            position: relative;
+            text-align: left;
+            padding: 2rem;
+            flex-direction: column;
+            height: 100%;
+        
+            .a-propos-image {
+              position: absolute;
+              left: 50px;
+              top: 10%;
+      
+              max-width: 70%;
+              text-align: center;
+              left: 20%;
+      
+              img {
+                width: 200px;
+                height: 120px;
+              }
+            }
+            h1 {
+              font-size: 1.70rem;
+              color: white;
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+              position: absolute;
+              left: 10%;
+              top: 30%;
+      
+              max-width: 45%;
+              text-align: center;
+            }
+        
+            p {
+              font-size: 0.80rem;
+              margin: 0;
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              max-width: 70%;
+              position: absolute;
+              top: 50%;
+              left: 50px;
+              line-height: 2;
+              letter-spacing: 0.01em;
+              text-transform: uppercase;
+            }
+            a {
+              color: white;
+              text-decoration: underline;
+              cursor: pointer;
+              margin-top: -50px;
+            }
+        
+            a {
+              color: white;
+              position: absolute;
+              top: 580px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+              left: 120px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+            }
+        
+            button {
+              background-color: white;
+              color: black;
+              padding: 7px 20px;
+              border: 2px solid white;
+              border-radius: 50px;
+              cursor: pointer;
+              font-size: 16px;
+              position: absolute;
+              bottom: 85px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+              left: 25%;
+              transform: translateX(-50%);
+              z-index: 1;
+        
+              &:hover {
+                background-color: grey;
+              }
+            }
+            .additional-text {
+              font-size: 0.80rem;
+              margin: 0;
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              max-width: 70%;
+              position: absolute;
+              top: 530px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+              left: 50px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+            }
+          }
+        }
+    
+      }
+      @media screen and (max-width: 767px) {
+        /* Styles pour les petits écrans */
+        .accueil {
+  
+    
+          background-image: url('/assets/img site-01.png');
+          position: relative;
+          padding: 50px;
+          height: 700px;
+          background-size: cover;
+          background-position: center;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+        
+        
+          .animated-section {
+            position: relative;
+            text-align: left;
+            padding: 2rem;
+            flex-direction: column;
+            height: 100%;
+        
+            .a-propos-image {
+              position: absolute;
+              left: 50px;
+              top: 10%;
+      
+              max-width: 70%;
+              text-align: center;
+              left: 25%;
+      
+              img {
+                width: 150px;
+                height: 80px;
+              }
+            }
+            h1 {
+              font-size: 1.70rem;
+              color: white;
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+              position: absolute;
+              left: 8%;
+              top: 25%;
+      
+              max-width: 65%;
+              text-align: center;
+            }
+        
+            p {
+              font-size: 0.80rem;
+              margin: 0;
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              max-width: 70%;
+              position: absolute;
+              top: 45%;
+              left: 50px;
+              line-height: 2;
+              letter-spacing: 0.01em;
+              text-transform: uppercase;
+            }
+            a {
+              color: white;
+              text-decoration: underline;
+              cursor: pointer;
+              margin-top: -50px;
+            }
+        
+            a {
+              color: white;
+              position: absolute;
+              top: 580px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+              left: 120px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+            }
+        
+            button {
+              background-color: white;
+              color: black;
+              padding: 7px 20px;
+              border: 2px solid white;
+              border-radius: 50px;
+              cursor: pointer;
+              font-size: 16px;
+              position: absolute;
+              bottom: 85px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+              left: 25%;
+              transform: translateX(-50%);
+              z-index: 1;
+        
+              &:hover {
+                background-color: grey;
+              }
+            }
+            .additional-text {
+              font-size: 0.80rem;
+              margin: 0;
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              max-width: 70%;
+              position: absolute;
+              top: 530px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+              left: 50px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+            }
+          }
+        }
+      #title {
+        font-size: 20px;
+      }
+     #description {
+  
+          max-width: 90%;
+          font-size: 10px;
+  
+        }
+        #image-box{
+          width: 180px;
+          height: 180px;
+          img{
+            width: 85px;
+          }
+          
+        }
+        #card-text{
+          text-align:center; color: #004E91; width: 280px; font-weight: bold;padding: 10px 40px;
+        }
+    
+      }
+  // @media only screen and (min-width: 1200px) {
+  // .accueil {
+  
+    
+  //   background-image: url('/assets/img site-01.png');
+  //   position: relative;
+  //   top: 0;
+  //   left: 0;
+  //   padding: 50px;
+  //   margin: -10px;
+  //   height: 700px;
+
+  //   background-size: cover;
+  //   background-position: center;
+  //   display: flex;
+  //   flex-direction: column;
+  //   color: #fff;
+  
+  //   .animated-section {
+  //     position: relative;
+  //     text-align: left;
+  //     padding: 2rem;
+  //     flex-direction: column;
+  //     height: 100%;
+  
+  //     .a-propos-image {
+  //       flex: 1;
+  //       padding: 10px;
+  //       display: left;
+  //       margin-top: 10%;
+  //       justify-content: flex-end;
+  //       margin-left: 220px; /* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+  
+  //       img {
+  //         width: 200px;
+  //         height: 120px;
+  //       }
+  //     }
+  //     h1 {
+  //       font-size: 1.70rem;
+  //       color: white;
+  //       margin: 0;
+  //       font-family: Arial, Helvetica, sans-serif;
+  //       position: absolute;
+  //       top: 310px;
+  //       left: 138px;
+  //       max-width: 30%;
+  //       text-align: center;
+  //     }
+  
+  //     p {
+  //       font-size: 0.80rem;
+  //       margin: 0;
+  //       color: white;
+  //       font-family: Arial, Helvetica, sans-serif;
+  //       max-width: 45%;
+  //       position: absolute;
+  //       top: 400px;
+  //       left: 120px;
+  //       line-height: 2;
+  //       letter-spacing: 0.01em;
+  //       text-transform: uppercase;
+  //     }
+  //     a {
+  //       color: white;
+  //       text-decoration: underline;
+  //       cursor: pointer;
+  //       margin-top: -50px;
+  //     }
+  
+  //     a {
+  //       color: white;
+  //       position: absolute;
+  //       top: 580px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+  //       left: 120px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+  //     }
+  
+  //     button {
+  //       background-color: white;
+  //       color: black;
+  //       padding: 7px 20px;
+  //       border: 2px solid white;
+  //       border-radius: 50px;
+  //       cursor: pointer;
+  //       font-size: 16px;
+  //       position: absolute;
+  //       bottom: 85px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+  //       left: 25%;
+  //       transform: translateX(-50%);
+  //       z-index: 1;
+  
+  //       &:hover {
+  //         background-color: grey;
+  //       }
+  //     }
+  //     .additional-text {
+  //       font-size: 0.80rem;
+  //       margin: 0;
+  //       color: white;
+  //       font-family: Arial, Helvetica, sans-serif;
+  //       max-width: 45%;
+  //       position: absolute;
+  //       top: 530px; /* Ajustez la valeur en fonction de la position verticale souhaitée */
+  //       left: 120px; /* Ajustez la valeur en fonction de la position horizontale souhaitée */
+  //     }
+  //   }
+  // }
+  // }
+
+  
+  
+
+
+
+  
+  

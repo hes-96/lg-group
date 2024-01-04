@@ -1,0 +1,430 @@
+<div class="page-container">
+  <div class="a-propos">
+    <div class="section1">
+      <img src="/assets/LG GROUPE_LOGO.png" />
+
+      <h2 class="fly-in">VOTRE PARTENAIRE DE CONFIANCE SUR MESURE</h2>
+
+      <h1 class="fly-in">MISE À DISPOSITION D'ÉQUIPE DÉDIÉE</h1>
+      <div class="contenu">
+        <div
+          class="box"
+          *ngFor="let item of menuItems"
+          [ngClass]="{ active: item.isActive }"
+          (click)="showSection(item.sectionId)"
+        >
+          <img src="{{ item.iconName }}" alt="comptabilité" />
+          <h3>{{ item.Text }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div *ngIf="selectedSection === 'COMPTABLE'" id="COMPTABLE" class="propos">
+    <div class="section2">
+      <img class="Image" src="/assets/finance.png" />
+      <div class="contenu">
+        <h2>COMPTABILITÉ ET FINANCE</h2>
+        <img src="/assets/template 7Asset 10mdpi.png" />
+      </div>
+    </div>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>COMPTABLE JUNIOR</h1>
+      </div>
+    </div>
+    <p>
+      Enregistre les transactions comptables de l'entreprise, suit et met à jour
+      les comptes client et fournisseurs
+    </p>
+
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>COMPTABLE SÉNIOR :</h1>
+      </div>
+    </div>
+    <p>
+      Supervise la saisie et le classement des données financières, il est
+      responsable de l’élaboration des déclarations fiscales, du suivi et du
+      traitements des factures clients et fournisseurs. Il dresse un état
+      mensuel de la situation comptable de l’entreprise
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>COMPTABLE RÉVISEUR JUNIOR :</h1>
+      </div>
+    </div>
+    <p>
+      Axé sur la qualité et la précision, ses tâches consistent à examiner et
+      réviser les différents comptes conformément aux règles et législations en
+      vigueur et d’élaborer des états financiers périodiques à la demande
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>COMPTABLE RÉVISEUR SÉNIOR :</h1>
+      </div>
+    </div>
+    <p>
+      Garant de l’intégrité des comptes de nos clients, le réviseur comptable
+      sénior veille à la conformité aux normes comptables les plus rigoureuses
+      et ne se limite pas à la révision des chiffres mais s’étend à la
+      supervision des comptables juniors, à la résolution des défis complexe en
+      matière fiscale et comptable. Il est amené à effectuer les travaux de
+      clôture annuelle et à justifier l’ensemble des postes comptables du bilan
+      et du compte de résultat
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>CHEF DE MISSION COMPTABLE :</h1>
+      </div>
+    </div>
+    <p>
+      Véritable conseillé pour la prise de décision des clients, les missions
+      qu’il exécute sont par conséquent nombreuses et variées : Révision des
+      comptes et établissement de la liasse fiscale, analyse, conseil et réalise
+      les budgets prévisionnels. C’est à lui qu’incombe aussi la responsabilité
+      d’accompagner et d’encadrer le reste de l’équipe de comptables. Il veille
+      à la bonne application des procédures et contrôle le travail effectué.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>CONTRÔLEUR DE GESTION :</h1>
+      </div>
+    </div>
+    <p>
+      Responsable de superviser et d’optimiser la performance financière de
+      l’entreprise, il Analyse et évalue la rentabilité ainsi que l'efficacité
+      des opérations. Il est amené dans sa mission à mettre en place des
+      systèmes de contrôle budgétaire pour suivre et comparer les résultats
+      réels par rapport aux prévisions.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>CHARGÉ DE RECOUVREMENT :</h1>
+      </div>
+    </div>
+    <p>
+      Excellent en communication, il maintient un contact régulier avec les
+      clients débiteurs par téléphone ou courrier électronique pour discuter et
+      négocier des plans de remboursement des paiements en retard. Il suit les
+      paiements et maintien une documentation complète et précise de toutes les
+      interactions avec le client
+    </p>
+  </div>
+  <div id="INGÉNIEURS" *ngIf="selectedSection === 'INGÉNIEURS'" class="propos">
+    <div class="section2">
+      <img class="Image" src="/assets/ingenieur-icon.png" />
+      <div class="contenu">
+        <h2>INGÉNIEURS</h2>
+        <img src="/assets/template 7Asset 10mdpi.png" />
+      </div>
+    </div>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>DÉVELOPPEUR DE LOGICIELS :</h1>
+      </div>
+    </div>
+    <p>
+      Conception, développement, test et déploiement des applications
+      logicielles. Cela peut inclure le développement de nouvelles applications
+      ou la maintenance et l'amélioration d'applications existantes.
+    </p>
+
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>DÉVELOPPEUR WEB :</h1>
+      </div>
+    </div>
+    <p>
+      Conception, développement et maintenance des sites web et des applications
+      web. Cela peut inclure la programmation, la gestion de bases de données et
+      l'assurance de la sécurité en ligne.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>DATA ANALYST :</h1>
+      </div>
+    </div>
+    <p>
+      Collecte, analyse et interprétation des données pour fournir des
+      informations utiles à l'entreprise. Cela peut inclure l'utilisation
+      d'outils d'analyse de données et de bases de données.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>INGÉNIEUR EN GÉNIE CIVIL :</h1>
+      </div>
+    </div>
+    <p>
+      Élaboration des plans et des spécifications techniques pour des projets
+      d’infrastructure. Calculs structuraux, modélisation et simulation.
+    </p>
+  </div>
+  <div
+    id="ASSISTANTES"
+    *ngIf="selectedSection === 'ASSISTANTES'"
+    class="propos"
+  >
+    <br />
+    <hr />
+    <br />
+    <div class="section2">
+      <img class="Image" src="/assets/assistants-icon.png" />
+      <div class="contenu">
+        <h2>ASSISTANTES</h2>
+        <img src="/assets/template 7Asset 10mdpi.png" />
+      </div>
+    </div>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>ASSISTANTE ADMINISTRATIVE :</h1>
+      </div>
+    </div>
+    <p>
+      Elle assure des tâches administratives telles que la gestion des agendas,
+      la planification des réunions, la rédaction de correspondance et la
+      coordination des déplacements
+    </p>
+
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>ASSISTANTE DE DIRECTION :</h1>
+      </div>
+    </div>
+    <p>
+      Elle travaille aux côtés des dirigeants de l'entreprise, prenant en charge
+      des responsabilités plus avancées telles que la gestion des
+      communications, la préparation de rapports et la supervision de projets
+      spécifiques.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>ASSISTANTE COMMERCIALE :</h1>
+      </div>
+    </div>
+    <p>
+      Elle se concentre sur les tâches liées aux ventes et à la gestion des
+      clients, telles que la rédaction de devis, le suivi des commandes et la
+      coordination des activités de vente.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>ASSISTANTE DE PROJET :</h1>
+      </div>
+    </div>
+    <p>
+      Elle collabore avec des équipes de projet, en prenant en charge des tâches
+      telles que la planification, le suivi des échéanciers et la coordination
+      des ressources.
+    </p>
+    <div class="bg-section">
+      <div class="bar-color"></div>
+
+      <div class="section3">
+        <img src="/assets/user-circle.png" />
+        <h1>ASSISTANTE RELATIONS CLIENTS :</h1>
+      </div>
+    </div>
+    <p>
+      Elle gère les appels téléphoniques, les courriels et les messages des
+      clients en fournissant des réponses précises et professionnelles.
+    </p>
+  </div>
+  <app-containercontact></app-containercontact>
+</div>
+<!--
+  <div class="propos2">
+    <div style="display: flex; flex-direction: row;margin-left: 80px;">
+    <h2>INGÉNIEURS</h2>
+    <img class="Image" src="/assets/Asset9.png" style="width: 100px;">
+  </div>
+    <img class="Image" src="/assets/template 7Asset 10mdpi.png">
+  
+   
+
+    <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+      <img src="/assets/user.jpg" style="width: 10%;"/>
+    <h1>DÉVELOPPEUR DE LOGICIELS</h1>
+    </div>
+    <p style="direction: rtl;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;">  Conception, développement, test et déploiement des 
+      applications logicielles. Cela peut inclure le développement de nouvelles applications 
+      ou la maintenance et l'amélioration d'applications existantes.
+    </p>
+  
+
+      <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+        <img src="/assets/user.jpg" style="width: 12%;"/>
+      <h1>DÉVELOPPEUR WEB</h1>
+      </div>
+      <p style="direction: rtl;
+      text-align: left;
+      margin-left: 50px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 16px;">  Conception, développement et maintenance des sites web et des 
+        applications web. Cela peut inclure la programmation, la gestion de bases de données 
+        et l'assurance de la sécurité en ligne.
+        </p>
+
+        <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+          <img src="/assets/user.jpg" style="width: 13%;"/>
+        <h1>DATA ANALYST</h1>
+        </div>
+        <p style="direction: rtl;
+        text-align: left;
+        margin-left: 50px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 16px;">   Collecte, analyse et interprétation des données pour fournir des 
+          informations utiles à l'entreprise. Cela peut inclure l'utilisation d'outils d'analyse de 
+          données et de bases de données.
+          </p>
+
+          <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+            <img src="/assets/user.jpg" style="width: 10%;"/>
+          <h1>INGÉNIEUR EN GÉNIE CIVIL</h1>
+          </div>
+          <p style="direction: rtl;
+          text-align: left;
+          margin-left: 50px;
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.5;
+          margin-bottom: 16px;">    Élaboration des plans et des spécifications techniques pour 
+            des projets d'infrastructure. Calculs structuraux, modélisation et simulation
+            </p>
+
+  </div>
+
+
+
+   
+  <div class="propos2">
+    <div style="display: flex; flex-direction: row;margin-left: 50px;">
+    <h2>SECRÉTARIAT</h2>
+    <img class="Image" src="/assets/Asset8.png" style="width: 90px;"/>
+  </div>
+    <img class="Image" src="/assets/template 7Asset 10mdpi.png"/>
+    
+    <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+      <img src="/assets/user.jpg" style="width: 10%;"/>
+    <h1>ASSISTANTE ADMINISTRATIVE</h1>
+    </div>
+    <p style="direction: rtl;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;">Elle assure des tâches administratives telles que la 
+      gestion des agendas, la planification des réunions, la rédaction de correspondance et la 
+      coordination des déplacements.</p>
+
+    <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+      <img src="/assets/user.jpg" style="width: 10%;"/>
+    <h1>ASSISTANTE DE DIRECTION</h1>
+    </div>
+    <p style="direction: rtl;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;"> Elle travaille aux côtés des dirigeants de l'entreprise, 
+      prenant en charge des responsabilités plus avancées telles que la gestion des 
+      communications, la préparation de rapports et la supervision de projets spécifiques.</p>
+
+    <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+      <img src="/assets/user.jpg" style="width: 10%;"/>
+    <h1>ASSISTANTE COMMERCIALE</h1>
+    </div>
+    <p style="direction: rtl;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;">Elle se concentre sur les tâches liées aux ventes et à la 
+      gestion des clients, telles que la rédaction de devis, le suivi des commandes et la 
+      coordination des activités de vente</p>
+
+    <div style="display: flex;flex-direction: row;margin-right: auto;margin-left: 20px;">
+      <img src="/assets/user.jpg" style="width: 11%;"/>
+    <h1>ASSISTANTE DE PROJET</h1>
+    </div>
+    <p style="direction: rtl;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;"> Elle collabore avec des équipes de projet, en prenant en charge 
+      des tâches telles que la planification, le suivi des échéanciers et la coordination des 
+      ressources</p>
+
+    <div style="display: flex;flex-direction: row;margin-right: auto; margin-left: 20px;">
+      <img src="/assets/user.jpg" style="width: 9%;"/>
+    <h1>ASSISTANTE RELATIONS CLIENT</h1>
+    </div>
+    <p style="direction: rtl;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;">Elle gère les appels téléphoniques, les courriels et les 
+      messages des clients en fournissant des réponses précises et professionnelles </p>
+  </div> -->

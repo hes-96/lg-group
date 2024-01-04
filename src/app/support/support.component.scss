@@ -1,0 +1,978 @@
+.a-propos {
+  background-image:url('/assets/img site-09.png');
+  position:relative;
+
+  height: auto;  width: 100%;
+  background-size:cover;
+  background-position: center;
+  display:flex;
+  flex-direction:column;
+  color: #fff;
+
+margin-bottom: 10px;
+  .section1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    img{
+      margin-bottom: 30px;
+      width: 300px;
+    }
+  
+
+    h2 {
+      font-size: 1.70rem;
+      color: white;
+      font-family: 'Helvetica', sans-serif;
+     width: 30%;
+      text-align: center;
+    }
+
+    h1 {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:white;
+      margin: 50px;
+      font-size: 32px;
+      font-weight: bold;
+      
+
+    }
+    .contenu{
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      .box img{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        position: relative;
+      }
+      .box h3{
+        bottom: 110px;
+        left: 16px;
+        font-size: 21px;
+        position: relative;
+        font-weight: bold;
+        width: 265px;
+        font-family: 'Bahnschrift';
+
+      }
+    }
+
+   
+
+
+  }
+
+
+    
+  
+          
+        
+    }
+    .propos5{
+      h2 {
+        font-size: 40px;
+         margin: 10px;
+         color: rgba(0, 0, 0, 0.884);
+         text-align:left;
+         margin-top: 50px;
+         margin-left: 120px;
+         margin-bottom: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+   
+      .bg-section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+
+        height: auto;
+        position: relative;
+        margin: 50px;
+
+        .bar-color{
+          position: absolute;
+          background-image: url('/assets/img site-07.png');
+          background-size: cover;
+          background-position: center;
+          width: 90%;
+          min-height: 300px;
+          height: auto;
+          background-color: #EBEBEB;
+        }
+      }
+      .section3{
+        position: relative;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding:20px ;
+       
+        p{
+          text-align: left;
+          font-size: 15px;
+          width: 60%;
+          color: white;
+          line-height: 2;
+        }
+        .propos-image{
+          background-image: url('/assets/template 2Asset 10mdpi.png');
+          height: 250px;
+          width: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          img{
+            height: 100px;
+            width: 100px;
+            margin-bottom: 20px;
+            
+          }
+          h3{
+            color: white;
+            font-size: 12px;
+          }
+        }
+    
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .propos5{
+        h2 {
+          font-size: 30px;
+           margin: 10px;
+           color: rgba(0, 0, 0, 0.884);
+           text-align:left;
+           margin-top: 50px;
+           margin-left: 20px;
+           margin-bottom: 20px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+     
+        .bg-section{
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          margin: 0;
+  
+          height: auto;
+          position: relative;
+  
+          .bar-color{
+            position: absolute;
+            background-image: url('/assets/img site-07.png');
+            background-size: cover;
+            background-position: center;
+            width: 95%;
+            min-height: 300px;
+            height: auto;
+            background-color: #EBEBEB;
+          }
+        }
+        .section3{
+          position: relative;
+  
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+         
+          p{
+            text-align: left;
+            font-size: 15px;
+            width: 90%;
+            color: white;
+            line-height: 2;
+          }
+          .propos-image{
+            background-image: url('/assets/template 2Asset 10mdpi.png');
+            height: 250px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+              height: 100px;
+              width: 100px;
+              margin-bottom: 20px;
+              
+            }
+            h3{
+              color: white;
+              font-size: 12px;
+            }
+          }
+      
+        }
+      }
+      
+    }
+
+
+    @media screen and (max-width: 767px) {
+      .a-propos {
+        background-image: url('/assets/img site-09.png');
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        align-items: center;
+      }
+    
+      .a-propos .section1 {
+        text-align: center;
+        margin-top: 10rem;
+    img{
+      width: 250px;
+      height: 150px;
+    }
+        h2 {
+          font-size: 1.5rem;
+          color: white;
+          max-width: 100%;
+          
+        }
+    
+        h1 {
+          font-size: 2rem;
+          color: white;
+        }
+      }
+      .a-propos .menu {
+        .contenu {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 20px;
+        }
+      
+        .contenu .box {
+          flex: 1;
+          width: auto;
+          height: auto;
+          margin: 20px 10px; /* Ajustez l'espacement entre les boîtes */
+        }
+      
+        .contenu .box .imbox {
+          height: auto;
+          margin-top: 0;
+      
+          img {
+            width: 50px;
+            height: 50px;
+            height: auto;
+          }
+      
+          h3 {
+            font-size: 10px;
+          }
+        }
+      }
+      
+    }
+    .propos {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+
+      h2 {
+     font-size: 40px;
+      margin: 10px;
+      color: rgba(0, 0, 0, 0.884);
+      text-align:left;
+      margin-left:-700px;
+      margin-top: 10%;
+      margin-bottom: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .Image{
+        margin-top:-10px;
+margin-bottom: 20px;
+margin-left:-700px;
+width: 500px;
+
+      }
+  
+      .propos-text {
+        background-image: url('/assets/img site-08.png');
+      padding: 20px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      margin: 0 100px 10px;
+      width: 85%;
+      height:200px;
+      display: flex; /* Utilisation de flex pour aligner h2 et propos-text */
+      align-items: center; /* Pour centrer les éléments verticalement */
+      justify-content: space-between;
+      margin-bottom: 20px;
+      .propos-image {
+        background-image: url('/assets/template 2Asset 10mdpi.png');
+        flex: 1;
+        padding: 10px;
+        max-width:200px; /* Ajustez la largeur de l'image de fond */
+        height: 200px; /* Ajustez la hauteur de l'image de fond */
+        margin-bottom: 30px;
+        margin-top: -100px; /* Ajustez la marge supérieure pour centrer l'image */
+        justify-content: flex-end;
+        margin-right: -70px; /* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+        display: flex; /* Ajoutez cette ligne pour rendre flex actif sur la classe propos-image */
+        align-items: center;
+        h3 {
+          font-size: 14px; 
+          color: white;
+          margin-top:150px; 
+          text-align: center;
+          margin-right:-10px;
+          width:100%;
+                  }          
+          img {
+          width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+          height: 100px; /* Ajustez la hauteur de l'image selon vos besoins */
+          object-fit: contain;
+          margin-top: -50px;
+          margin-right:-150px;/* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+
+        }
+      }
+      
+        p {
+          text-align: justify;
+          max-width: 850px;
+          font-size: 15px;
+          margin: 0;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color:white;
+          line-height: 2; // Hauteur de ligne pour une meilleure lisibilité
+          text-align: left; // Justifier le texte à gauche
+        }
+      }
+    }
+    .propos2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      margin-bottom: 100px;
+      h2 {
+        font-size: 40px;
+        margin: 10px;
+        color: rgba(0, 0, 0, 0.884);
+        text-align:left;
+        margin-left:-450px;
+        margin-top: 10%;
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+      .Image{
+        margin-top:-10px;
+margin-bottom: 20px;
+margin-left:-500px;
+width: 700px;
+
+      }
+  
+      .propos2-text {
+        background-image: url('/assets/img site-07.png');
+      padding: 20px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      margin: 0 100px 10px;
+      width: 85%;
+      display: flex; /* Utilisation de flex pour aligner h2 et propos-text */
+      align-items: center; /* Pour centrer les éléments verticalement */
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .propos2-image {
+        background-image: url('/assets/template 2Asset 10mdpi.png');
+        flex: 1;
+        padding: 10px;
+        max-width:200px; /* Ajustez la largeur de l'image de fond */
+        height: 200px; /* Ajustez la hauteur de l'image de fond */
+        margin-bottom: 30px;
+        margin-top: -100px; /* Ajustez la marge supérieure pour centrer l'image */
+        justify-content: flex-end;
+        margin-right: -70px; /* Ajustez la marge comme nécessaire pour l'écart entre le texte et l'image */
+        display: flex; /* Ajoutez cette ligne pour rendre flex actif sur la classe propos-image */
+        align-items: center;
+         h3 {
+          font-size: 14px; 
+          color: white;
+          margin-top:150px; 
+          text-align: center;
+          margin-right:-10px;
+          width:100%;
+                  }          
+          img {
+          width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+          height: 100px; /* Ajustez la hauteur de l'image selon vos besoins */
+          object-fit: contain;
+          margin-top: -50px;
+          margin-right:-150px;
+
+        }
+      }
+        p {
+          text-align: justify;
+          max-width: 850px;
+          font-size: 15px;
+          margin: 0;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color:white;
+          line-height: 2; // Hauteur de ligne pour une meilleure lisibilité
+          text-align: left; // Justifier le texte à gauche
+        }
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .propos {
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    
+        h2 {
+          font-size: 24px; /* Ajustez la taille de la police pour les petits écrans */
+          margin: 10px 0;
+          color: rgba(0, 0, 0, 0.884);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    
+        .propos-text {
+          background-size: cover;
+          background-position: center;
+          background-image: url('/assets/img site-08.png');
+          padding: 10px; /* Réduisez la marge intérieure */
+          margin: 0 20px 10px; /* Ajustez les marges */
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .propos-image {
+            background-image: url('/assets/template 2Asset 10mdpi.png');
+            height: auto; /* Réinitialisez la hauteur */
+            margin: 0;
+            margin-right: 0; /* Réinitialisez la marge droite */
+            justify-content: center;
+            display: flex;
+            flex-direction: column; /* Modifiez le flex-direction en "column" pour empiler l'image et le h3 */
+            align-items: center;
+            background-size: cover; /* Ajustez la taille du fond pour couvrir complètement le conteneur */
+          
+            img {
+              width: 50px;
+              height: 100px;
+              object-fit: contain;
+              margin: 0;
+              margin-right: 10px; /* Ajustez la marge droite */
+            }
+          
+            h3 {
+              font-size: 14px;
+              margin: 0;
+              color: white;
+              text-align: center;
+            }
+          }
+          
+          
+    
+          p {
+            text-align: justify;
+            max-width: 100%; /* Ajustez la largeur maximale */
+            font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            line-height: 1.5; /* Ajustez la hauteur de ligne pour une meilleure lisibilité */
+            text-align: center; /* Centrez le texte */
+          }
+        }
+      }
+    }
+  
+
+    @media screen and (max-width: 767px) {
+      .propos2 {
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    
+        h2 {
+          font-size: 24px; /* Ajustez la taille de la police pour les petits écrans */
+          margin: 10px 0;
+          color: rgba(0, 0, 0, 0.884);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    
+        .propos2-text {
+          background-size: cover;
+          background-position: center;
+          background-image: url('/assets/img site-08.png');
+          padding: 10px; /* Réduisez la marge intérieure */
+          margin: 0 20px 10px; /* Ajustez les marges */
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .propos2-image {
+            background-image: url('/assets/template 2Asset 10mdpi.png');
+            height: auto; /* Réinitialisez la hauteur */
+            margin: 0;
+            margin-right: 0; /* Réinitialisez la marge droite */
+            justify-content: center;
+            display: flex;
+            flex-direction: column; /* Modifiez le flex-direction en "column" pour empiler l'image et le h3 */
+            align-items: center;
+            background-size: cover; /* Ajustez la taille du fond pour couvrir complètement le conteneur */
+          
+            img {
+              width: 50px;
+              height: 100px;
+              object-fit: contain;
+              margin: 0;
+              margin-right: 10px; /* Ajustez la marge droite */
+            }
+          
+            h3 {
+              font-size: 14px;
+              margin: 0;
+              color: white;
+              text-align: center;
+            }
+          }
+       p {
+            text-align: justify;
+            max-width: 100%; /* Ajustez la largeur maximale */
+            font-size: 14px; /* Ajustez la taille de la police pour les petits écrans */
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            line-height: 1.5; /* Ajustez la hauteur de ligne pour une meilleure lisibilité */
+            text-align: center; /* Centrez le texte */
+          }
+        }
+      }
+    }
+    .container{
+      margin-top: 50px;
+      .column{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        .title{
+position: absolute;
+top: -19px;
+left: 40px;
+width: 100%;
+font-family: 'Bahnschrift';
+
+hr{
+  margin-left: 20px;
+
+height: 2px;
+  width: 80%;
+}
+h2{
+  margin-left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Bahnschrift';
+
+}
+        }
+       
+        .row{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          margin-bottom: 100px;
+          position: relative;
+          padding-top: 50px;
+          .first-column{
+            background-image: url('/assets/img site-07.png');
+            background-size: cover;
+            background-position: center; 
+            display: flex; 
+            align-items: center;         
+             width: 90%;
+            height: 300px;
+            p{
+              padding: 0 20px;
+              color: white;
+              font-size: 18px;
+              width: 80%;
+              line-height: 2;
+              font-family: 'Bahnschrift';
+              height: 80%;
+
+
+            }
+          }
+          #PAIE{
+            background-image: url('/assets/img site-08.png');
+            background-size: cover;
+            background-position: center; 
+            display: flex; 
+            align-items: center;         
+             width: 90%;
+            height: 300px;
+            p{
+              padding: 0 20px;
+              color: white;
+              font-size: 18px;
+              width: 80%;
+              line-height: 2;
+              font-family: 'Bahnschrift';
+              height: 80%;
+
+
+            }
+          }
+          #HUMAINESBG{
+            background-image: url('/assets/backgroundtwo.png');
+            background-size: cover;
+            background-position: center; 
+            display: flex; 
+            align-items: center; 
+             width: 90%;
+            height: 300px;
+            p{
+              padding: 0 20px;
+              color: white;
+              font-size: 18px;
+              width: 80%;
+              line-height: 2;
+              font-family: 'Bahnschrift';
+              height: 80%;
+
+
+            }
+          }
+          #INFORMATIQUEBG{
+            background-image: url('/assets/backgroundfour.png');
+            background-size: cover;
+            background-position: center; 
+            display: flex; 
+            align-items: center; 
+             width: 90%;
+            height: 300px;
+            p{
+              padding: 0 20px;
+              color: white;
+              font-size: 18px;
+              width: 80%;
+              line-height: 2;
+              font-family: 'Bahnschrift';
+              height: 80%;
+
+
+            }
+          }
+          .second-column{
+            width: 5%;
+            height: 300px;
+
+          }
+          .third-column{
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background-color: #1d262d;
+            top: 0;
+            right: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h3{
+              margin-top: 10px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      .container{
+        margin-top: 50px;
+        .column{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          .title{
+            margin-top: 10px;
+            position: absolute;
+            top: -35px;
+            left: 10px;
+            width: 100%;
+            font-family: 'Bahnschrift';
+        
+            hr{
+              margin-left: 20px;
+            
+            height: 2px;
+              //
+    
+                        width: 90%;
+            }
+            h2{
+              margin-left: 20px;
+              font-size: 28px;
+              font-weight: bold;
+              font-family: 'Bahnschrift';
+       
+            
+            }
+                    }
+
+          .row{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 100px;
+            position: relative;
+            padding-top: 50px;
+            .first-column{
+              background-image: url('/assets/img site-07.png');
+              background-size: cover;
+              background-position: center; 
+              display: flex; 
+              align-items: center;         
+               width: 90%;
+              height: 300px;
+              p{
+                padding: 20px;
+                color: white;
+                font-size: 16px;
+                width: 70%;
+                line-height: 1.4;
+  
+              }
+            }
+            #PAIE{
+              background-image: url('/assets/img site-08.png');
+              background-size: cover;
+              background-position: center; 
+              display: flex; 
+              align-items: center;         
+               width: 90%;
+              height: 300px;
+              p{
+                padding: 20px;
+                color: white;
+                font-size: 16px;
+                width: 70%;
+                line-height: 1.4;
+  
+              }
+
+            }
+            #HUMAINESBG{
+              background-image: url('/assets/backgroundtwo.png');
+              background-size: cover;
+              background-position: center; 
+              display: flex; 
+              align-items: center;         
+               width: 90%;
+              height: 300px;
+              p{
+                padding: 20px;
+                color: white;
+                font-size: 16px;
+                width: 70%;
+                line-height: 1.4;
+  
+              }
+
+            }
+            #INFORMATIQUEBG{
+              background-image: url('/assets/backgroundfour.png');
+              background-size: cover;
+              background-position: center; 
+              display: flex; 
+              align-items: center;         
+               width: 90%;
+              height: 300px;
+              p{
+                padding: 20px;
+                color: white;
+                font-size: 16px;
+                width: 70%;
+                line-height: 1.4;
+  
+              }
+
+            }
+            .second-column{
+              width: 5%;
+              height: 300px;
+  
+            }
+            .third-column{
+              position: absolute;
+              width: 200px;
+              height: 200px;
+              background-color: #1d262d;
+              top: 0;
+              right: 2%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              h3{
+                margin-top: 10px;
+                color: white;
+                font-size: 16px;
+              }
+              img{
+                width: 80px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .container{
+        margin-top: 50px;
+        .column{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-top: 100px;
+          .title{
+            margin-top: 10px;
+            position: absolute;
+            top: -95px;
+            left: 50%;
+            transform: translateX(-50%);
+            
+            width: 100%;
+            font-family: 'Bahnschrift';
+        
+            hr{
+            text-align: center;
+            height: 2px;
+              //
+    
+                        width: 90%;
+            }
+            h2{
+              font-size: 28px;
+              font-weight: bold;
+              font-family: 'Bahnschrift';
+              text-align: center;
+
+            
+            }
+                    }
+          hr{
+  
+  height: 2px;
+            width: 90%;
+          }
+          h2{
+            font-size: 32px;
+            font-weight: bold;
+          }
+          .row{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 0;
+            padding-top:10px;
+            .first-column{
+              position: static;
+margin-top: 50px;
+              background-image: url('/assets/img site-07.png');
+              background-size: cover;
+              background-position: center; 
+              display: flex; 
+              align-items: center;         
+               width: 95%;
+              height: auto;
+              p{
+                padding: 20px;
+                color: white;
+                font-size: 16px;
+                line-height: 1.4;
+                width: 95%;
+  
+              }
+            }
+            #PAIE{
+              position: static;
+              margin-top: 50px;
+                            background-image: url('/assets/img site-08.png');
+                            background-size: cover;
+                            background-position: center; 
+                            display: flex; 
+                            align-items: center;         
+                             width: 95%;
+                            height: auto;
+                            p{
+                              padding: 20px;
+                              color: white;
+                              font-size: 16px;
+                              line-height: 1.4;
+                              width: 95%;
+                
+                            }
+            }
+            .second-column{
+              width: 5%;
+              height: 300px;
+              position: static;
+              display: none;
+
+  
+            }
+            .third-column{
+              width: 200px;
+              height: 200px;
+              background-color: #1d262d;
+         
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              position: static;
+              h3{
+                margin-top: 10px;
+                color: white;
+                font-size: 16px;
+              }
+              img{
+                width: 80px;
+              }
+            }
+          }
+        }
+      }
+    }

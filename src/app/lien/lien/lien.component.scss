@@ -1,0 +1,361 @@
+// .a-propos {
+//   background-color: #f0f0f0; /* Couleur de fond grise */
+//   display: flex;
+//   padding: 0;
+//   background-size: cover;
+//   background-position: center;
+//   position: relative;
+//   margin: 0 100px 10px;
+//   flex: 1;
+//   margin-top: 100px;
+//   max-width: 90%;
+//   width:90%;
+// }
+
+// .a-propos .a-propos-image {
+//   flex: 1;
+//   padding: 10px;
+//   display: left;
+//   justify-content: flex-end;
+
+//   img {
+//       width: 300px;
+//       height: 220px;
+//       box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.2); /* Ajoutez ici votre ombre personnalisée */
+//   }
+// }
+
+// .a-propos .a-propos-text {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   flex: 2;
+//   padding: 10px;
+// }
+
+// .a-propos .a-propos-text h2 {
+//   font-size: 32px;
+//   margin: 0;
+//   margin-bottom: 10px;
+
+//   color: rgba(0, 0, 0, 0.884); /* Couleur du texte */
+//   text-align: center;
+//   font-family: Arial, Helvetica, sans-serif;
+// }
+
+// .a-propos .a-propos-text p {
+//   text-align: justify;
+//   max-width: 600px;
+//   font-size: 12px;
+//   margin: 0;
+//   font-family: Arial, Helvetica, sans-serif;
+//   color: #666;
+//   line-height: 2; /* Hauteur de ligne pour une meilleure lisibilité */
+//   text-align: left; /* Justifier le texte à gauche */
+// }
+// @media (max-width: 900px) {
+//   .a-propos {
+//     background-color: #f0f0f0; /* Couleur de fond grise */
+//     display: flex;
+//     padding: 0;
+//     background-size: cover;
+//     background-position: center;
+//     position: relative;
+//     margin: 0 0 0px 50px;
+//     margin-top: 100px;
+//     flex: 1;
+//     max-width: 90%;
+//     width: 650px;
+//   }
+//   .a-propos .a-propos-text h2 {
+//     font-size: 24px;
+//     margin: 0;
+//     margin-bottom: 10px;
+//     color: rgba(0, 0, 0, 0.884); /* Couleur du texte */
+//     text-align: center;
+//     font-family: Arial, Helvetica, sans-serif;
+//   }
+  
+//   .a-propos .a-propos-text p {
+//     text-align: justify;
+//     max-width: 600px;
+//     font-size: 11px;
+//     margin: 0;
+//     font-family: Arial, Helvetica, sans-serif;
+//     color: #666;
+//     line-height: 2; /* Hauteur de ligne pour une meilleure lisibilité */
+//     text-align: left; /* Justifier le texte à gauche */
+//   }
+
+// }
+
+// @media (max-width: 767px) {
+//   .a-propos {
+//     margin: 10px 0 0px 30px;
+//     margin-top: 50px;
+  
+   
+
+//   }
+
+//   .a-propos ,.a-propos-text {
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column-reverse;
+//     align-items: center;
+//   }
+
+
+//   /* Ajoutez des styles spécifiques pour les écrans plus petits si nécessaire */
+//   .a-propos .a-propos-image img {
+//     width: 200px; /* Par exemple, ajustez la taille de l'image */
+//     height: 150px; /* Par exemple, ajustez la hauteur de l'image */
+//   }
+
+//   .a-propos .a-propos-text p {
+//     font-size: 14px; /* Par exemple, ajustez la taille de la police du paragraphe */
+//     text-transform: lowercase; /* Par exemple, appliquez la transformation de texte */
+//   }
+// }
+
+
+.sup-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  position:relative ;
+
+  left: 50;
+  right: 50;
+  width: 90%;
+  
+}
+
+.a-propos {
+  background-color: #f0f0f0; /* Couleur de fond grise */
+  display: flex;
+  width: 100%;
+  min-height:460px ;
+
+  height: auto;
+
+}
+.white-container{
+  background-color: white;
+  width: 10%;
+  min-height:460px ;
+  height: auto;
+}
+.section-text{
+  background-color: #f0f0f0; 
+ position: absolute;
+ width: 58%;
+ height: 90%;
+ padding: 20px;
+ font-family: 'Bahnschrift';
+
+ h2{
+font-size: 48px;
+font-family: 'Bahnschrift';
+
+ }
+ p{
+  font-size: 22px;
+  line-height: 1.4;
+  font-family: 'Bahnschrift';
+
+ }
+}
+.card{
+
+background-image: url("/assets/img site-02.png");
+background-size: cover;
+ background-position: center;
+  width: 380px;
+  height: 370px;
+  position: absolute;
+  top: 40px;
+  right: 7%;
+  z-index: 1;
+}
+@media (max-width: 1200px) {
+ 
+  
+   
+.sup-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  position:relative ;
+
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+.a-propos {
+  background-color: #f0f0f0; /* Couleur de fond grise */
+  display: flex;
+  width: 100%;
+  min-height:400px ;
+
+  height: auto;
+
+}
+.white-container{
+  background-color: white;
+  width: 10%;
+  min-height:300px ;
+  height: auto;
+}
+.section-text{
+  background-color: #f0f0f0; 
+ position: absolute;
+ width: 60%;
+ height: 80%;
+ padding: 20px;
+
+ h2{
+font-size: 36px;
+ }
+ p{
+  font-size: 16px;
+  line-height: 1.4;
+ }
+}
+.card{
+
+background-image: url("/assets/img site-02.png");
+background-size: cover;
+ background-position: center;
+  width: 280px;
+  height: 270px;
+  position: absolute;
+  top: 65px;
+  right: 3%;
+}
+
+  }
+  @media (max-width: 767px) {
+ 
+  
+   
+    .sup-container{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: white;
+      position:relative ;
+    
+  
+      width: 90%;
+      
+    }
+    
+    .a-propos {
+      background-color: #f0f0f0; /* Couleur de fond grise */
+      display: flex;
+      width: 100%;
+     height: 700px;
+    
+    }
+    .white-container{
+      background-color: white;
+      width:0;
+      height: 0;
+    }
+    .section-text{
+      background-color: #f0f0f0; 
+     position: absolute;
+     top: 300px;
+     width: 90%;
+     height: 20%;
+     padding: 20px;
+    
+     h2{
+    font-size: 36px;
+     }
+     p{
+      font-size: 16px;
+      line-height: 1.4;
+     }
+    }
+    .card{
+    
+    background-image: url("/assets/img site-02.png");
+    background-size: cover;
+     background-position: center;
+      width: 280px;
+      height: 270px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+      }
+
+      @media (max-width: 470px) {
+ 
+  
+   
+ 
+        
+        .a-propos {
+          background-color: #f0f0f0; /* Couleur de fond grise */
+          display: flex;
+          width: 100%;
+         height: 820px;
+        
+        }
+   
+        .section-text{
+          background-color: #f0f0f0; 
+         position: absolute;
+         top: 300px;
+         width: 90%;
+         height: 20%;
+         padding: 20px;
+        
+      
+         p{
+          font-size: 16px;
+          line-height: 1.4;
+         }
+        }
+ 
+          }
